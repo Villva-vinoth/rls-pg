@@ -1,4 +1,4 @@
-const AdminuserModel = require('../../models/adminUser.model.js')
+const AdminuserModel = require('../../db/models/adminUser.model.js')
 
 module.exports ={
     createUser:async(data,callback)=>{

@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
-const { sequelize } = require('./config/db.config')
-const baseRouter = require('./api/helper/index')
+const { sequelize } = require('./db/config/db.config')
+const baseRouter = require('./helper/index')
 const port = 4000
 const app = express()
 

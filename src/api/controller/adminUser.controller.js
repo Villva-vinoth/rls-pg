@@ -1,4 +1,4 @@
-const { setTenantId } = require("../helper/setTenantId");
+const { setTenantId } = require("../../helper/setTenantId");
 const { createUser, getOne, login } = require("../services/adminUser.service");
 
 module.exports ={
